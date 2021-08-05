@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		00EA90572694F5EC00615A19 /* SCDAO_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EA90562694F5EC00615A19 /* SCDAO_MobileTests.swift */; };
 		00EA90622694F5EC00615A19 /* SCDAO_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EA90612694F5EC00615A19 /* SCDAO_MobileUITests.swift */; };
 		40345D01E61E0A3F4CC5EF2C /* Pods_SCDAO_Mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7023049EA420BBB39E7C8F /* Pods_SCDAO_Mobile.framework */; };
+		8453CD7B26BAF1CB003312D1 /* PopupNewFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453CD7A26BAF1CB003312D1 /* PopupNewFolder.swift */; };
+		8453CD7D26BC48C4003312D1 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453CD7C26BC48C4003312D1 /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3C7023049EA420BBB39E7C8F /* Pods_SCDAO_Mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SCDAO_Mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB57856209F09FCA47F3C82 /* Pods-SCDAO-Mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDAO-Mobile.release.xcconfig"; path = "Target Support Files/Pods-SCDAO-Mobile/Pods-SCDAO-Mobile.release.xcconfig"; sourceTree = "<group>"; };
 		4CFF2BD935DD65F066AA42F1 /* Pods-SCDAO-Mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SCDAO-Mobile.debug.xcconfig"; path = "Target Support Files/Pods-SCDAO-Mobile/Pods-SCDAO-Mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		8453CD7A26BAF1CB003312D1 /* PopupNewFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupNewFolder.swift; sourceTree = "<group>"; };
+		8453CD7C26BC48C4003312D1 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				00EA90412694F5EB00615A19 /* SceneDelegate.swift */,
 				00EA90432694F5EB00615A19 /* ViewController.swift */,
 				00EA90452694F5EB00615A19 /* Main.storyboard */,
+				8453CD7C26BC48C4003312D1 /* PopUpViewController.swift */,
+				8453CD7A26BAF1CB003312D1 /* PopupNewFolder.swift */,
 				00EA90482694F5EC00615A19 /* Assets.xcassets */,
 				00EA904A2694F5EC00615A19 /* LaunchScreen.storyboard */,
 				00EA904D2694F5EC00615A19 /* Info.plist */,
@@ -149,7 +155,6 @@
 				4CFF2BD935DD65F066AA42F1 /* Pods-SCDAO-Mobile.debug.xcconfig */,
 				4BB57856209F09FCA47F3C82 /* Pods-SCDAO-Mobile.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -335,7 +340,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8453CD7D26BC48C4003312D1 /* PopUpViewController.swift in Sources */,
 				00EA90442694F5EB00615A19 /* ViewController.swift in Sources */,
+				8453CD7B26BAF1CB003312D1 /* PopupNewFolder.swift in Sources */,
 				00EA90402694F5EB00615A19 /* AppDelegate.swift in Sources */,
 				00EA90422694F5EB00615A19 /* SceneDelegate.swift in Sources */,
 			);
